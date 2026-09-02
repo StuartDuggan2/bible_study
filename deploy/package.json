@@ -1,0 +1,17 @@
+{
+  "name": "biblical-literacy-backend",
+  "private": true,
+  "scripts": {
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "drizzle-orm": "^0.36.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.2.0",
+    "drizzle-kit": "^0.28.0",
+    "typescript": "^5.6.0"
+  }
+}
