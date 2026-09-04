@@ -1,6 +1,6 @@
 import { ReactNode, useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
-import { LayoutDashboard, BookOpen, Landmark, GraduationCap, NotebookPen, ScrollText, Network } from "lucide-react";
+import { LayoutDashboard, BookOpen, Landmark, GraduationCap, NotebookPen, ScrollText, Network, Moon, Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
