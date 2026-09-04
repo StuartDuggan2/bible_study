@@ -4,7 +4,7 @@
 // app once per warm invocation and delegate every request to it.
 
 import type { IncomingMessage, ServerResponse } from "node:http";
-import { createApp } from "../server/app";
+import { createApp } from "../server/app.js";
 
 // Lazy-init: build the app once per lambda instance (survives across
 // warm invocations, rebuilt on cold start).
