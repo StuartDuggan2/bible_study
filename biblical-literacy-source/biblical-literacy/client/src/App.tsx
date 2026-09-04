@@ -20,6 +20,9 @@ function AppRouter() {
       <Switch>
         <Route path="/" component={Dashboard} />
         <Route path="/books" component={BooksPage} />
+        <Route path="/read/:bookId/:chapter" component={ReadPage} />
+        <Route path="/read/:bookId" component={ReadPage} />
+        <Route path="/connections" component={ConnectionsPage} />
         <Route path="/timeline" component={TimelinePage} />
         <Route path="/glossary" component={GlossaryPage} />
         <Route path="/notes" component={NotesPage} />
