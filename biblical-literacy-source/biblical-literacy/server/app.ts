@@ -4,7 +4,7 @@
 
 import express, { type Response, type NextFunction, type Request, type Express } from "express";
 import { createServer, type Server } from "node:http";
-import { registerRoutes } from "./routes";
+import { registerRoutes } from "./routes.js";
 
 declare module "http" {
   interface IncomingMessage {
