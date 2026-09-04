@@ -124,6 +124,9 @@ function BookCard({ book }: { book: BookEntry }) {
             >
               <Plus className="h-3.5 w-3.5" />
             </Button>
+            <Button variant="outline" size="sm" asChild>
+  <a href={`/#/read/${book.id}/1`}>Read</a>
+</Button>
           </div>
         </div>
 
