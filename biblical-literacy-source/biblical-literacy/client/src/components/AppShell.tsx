@@ -1,17 +1,17 @@
 import { ReactNode, useEffect, useState } from "react";
 import { Link, useLocation } from "wouter";
-import { BookOpen, LayoutDashboard, Landmark, GraduationCap, NotebookPen, Moon, Sun } from "lucide-react";
+import { LayoutDashboard, BookOpen, Landmark, GraduationCap, NotebookPen, ScrollText, Network } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
 const NAV = [
   { href: "/", label: "Dashboard", icon: LayoutDashboard },
   { href: "/books", label: "Books", icon: BookOpen },
+  { href: "/read/genesis/1", label: "Read", icon: ScrollText },
+  { href: "/connections", label: "Connections", icon: Network },
   { href: "/timeline", label: "Timeline", icon: Landmark },
   { href: "/glossary", label: "Glossary", icon: GraduationCap },
   { href: "/notes", label: "Notes", icon: NotebookPen },
-  { href: "/read/genesis/1", label: "Read" },
-  { href: "/connections", label: "Connections" },
 ];
 
 function useDarkMode() {
