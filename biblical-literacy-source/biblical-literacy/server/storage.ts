@@ -1,5 +1,5 @@
-import { readingProgress, bibleNotes } from "@shared/schema.js";
-import type { ReadingProgress, InsertReadingProgress, BibleNote, InsertBibleNote } from "@shared/schema.js";
+import { readingProgress, bibleNotes } from "../shared/schema.js";
+import type { ReadingProgress, InsertReadingProgress, BibleNote, InsertBibleNote } from "../shared/schema.js";
 import { eq, desc } from "drizzle-orm";
 import { getDB } from "./db.js";
 
