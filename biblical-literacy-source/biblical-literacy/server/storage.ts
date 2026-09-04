@@ -1,7 +1,7 @@
-import { readingProgress, bibleNotes } from "@shared/schema";
-import type { ReadingProgress, InsertReadingProgress, BibleNote, InsertBibleNote } from "@shared/schema";
+import { readingProgress, bibleNotes } from "@shared/schema.js";
+import type { ReadingProgress, InsertReadingProgress, BibleNote, InsertBibleNote } from "@shared/schema.js";
 import { eq, desc } from "drizzle-orm";
-import { getDB } from "./db";
+import { getDB } from "./db.js";
 
 export interface IStorage {
   getAllProgress(): Promise<ReadingProgress[]>;
