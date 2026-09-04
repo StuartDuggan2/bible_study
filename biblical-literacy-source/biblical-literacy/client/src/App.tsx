@@ -10,6 +10,8 @@ import BooksPage from "@/pages/books";
 import TimelinePage from "@/pages/timeline";
 import GlossaryPage from "@/pages/glossary";
 import NotesPage from "@/pages/notes";
+import ReadPage from "@/pages/read";
+import ConnectionsPage from "@/pages/connections";
 import { AppShell } from "@/components/AppShell";
 
 function AppRouter() {
