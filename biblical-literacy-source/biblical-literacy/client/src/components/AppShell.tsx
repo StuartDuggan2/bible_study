@@ -10,6 +10,8 @@ const NAV = [
   { href: "/timeline", label: "Timeline", icon: Landmark },
   { href: "/glossary", label: "Glossary", icon: GraduationCap },
   { href: "/notes", label: "Notes", icon: NotebookPen },
+  { href: "/read/genesis/1", label: "Read" },
+  { href: "/connections", label: "Connections" },
 ];
 
 function useDarkMode() {
