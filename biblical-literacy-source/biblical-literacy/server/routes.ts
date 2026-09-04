@@ -1,8 +1,8 @@
 import type { Express } from "express";
 import { createServer } from "node:http";
 import type { Server } from "node:http";
-import { storage } from "./storage";
-import { insertReadingProgressSchema } from "@shared/schema";
+import { storage } from "./storage.js";
+import { insertReadingProgressSchema } from "@shared/schema.js";
 import { z } from "zod";
 
 export async function registerRoutes(
